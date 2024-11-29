@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    padding-top: 60px;
+    background-color: rgb(54, 244, 54);
+}
+
+div h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+}
+
+div #input {
+    margin-bottom: 30px;
+    padding: 15px;
+    padding-right: 65%;
+    margin-left: 3%;
+    font-size: 18px;
+}
+
+div #add {
+    background-color: rgba(209, 204, 204, 0.819);
+    padding: 18px 90px;
+}
+
+ul li {
+    font-size: 30px;
+    background-color: beige;
+    margin-bottom: 5px;
+    padding: 10px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: red;
+}
+
+.close:hover {
+    color: darkred;
+}
